@@ -1,0 +1,139 @@
+
+
+
+
+.bg-transperent-1{
+  background-color: rgba(199, 199, 199, 0.103) !important;
+}
+
+.bg-transperent{
+  background-color: transparent!important;
+}
+
+
+
+/* Top bar */
+.top-bar {
+  background: #240046;
+  color: white;
+  font-size: 14px;
+}
+
+/* Navbar */
+.navbar {
+  background: linear-gradient(to right, #3a0ca3, #7209b7);
+}
+
+.navbar-brand .logo {
+  height: 40px;
+}
+
+.brand-name {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+
+.navbar-nav .nav-link {
+  color: white !important;
+  font-weight: 600;
+  margin: 0 10px;
+}
+
+/* Cart and User Icons */
+.cart-icon {
+  font-size: 20px;
+  color: white;
+  position: relative;
+}
+
+.cart-badge {
+  position: absolute;
+  top: -5px;
+  right: -10px;
+  background: red;
+  color: white;
+  font-size: 12px;
+  padding: 2px 6px;
+  border-radius: 50%;
+}
+
+.cart-amount {
+  color: white;
+  font-weight: bold;
+}
+
+.user-icon {
+  font-size: 22px;
+  color: white;
+}
+
+/* Buy Tickets Button */
+.buy-tickets {
+  background: linear-gradient(to right, #ff007f, #ff4800);
+  color: white;
+  font-weight: bold;
+  border-radius: 20px;
+  padding: 8px 20px;
+}
+
+
+.login-modal {
+  background: linear-gradient(to right, #3a0ca3, #7209b7, #3a0ca3);
+
+  text-align: center;
+  color: white;
+  position: relative;
+  padding: 30px;
+}
+.close-btn {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: none;
+  border: none;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+}
+.login-modal h3 {
+  font-weight: bold;
+}
+.login-btn {
+  background: linear-gradient(to right, #ff8c00, #ff3b3b);
+  border: none;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 50px;
+  font-weight: bold;
+}
+.signup-link {
+  color: #00ff99;
+  font-weight: bold;
+}
+.forgot-password {
+  color: #00ff99;
+  text-decoration: none;
+}
+.social-login p {
+  margin-top: 15px;
+  font-size: 14px;
+}
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+.social-btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid white;
+  background: none;
+  color: white;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
