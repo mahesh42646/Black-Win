@@ -1,0 +1,27 @@
+.terms-page {
+    background-color: #0e0e23;
+    color: #ffffff;
+    min-height: 100vh;
+    padding-bottom: 50px;
+  }
+  
+  .hero-section {
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .overlay {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  h2 {
+    margin-top: 20px;
+  }
+  
