@@ -1,40 +1,210 @@
+/* General Page Styling */
 .faq-page {
-    background-color: #0e0e23;
-    color: #ffffff;
-    min-height: 100vh;
-    padding-bottom: 50px;
-  }
+  background: -webkit-linear-gradient(90deg, rgb(232, 42, 122) 0%, rgb(54, 3, 84) 100%);
+  height: 40vh;
+  padding-bottom: 50px;
+  color: white;
+  border-radius: 0 0 100px 100px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Hero Section */
+.hsection {
+  background:-webkit-linear-gradient(120deg, rgb(59, 38, 219) 1%, rgb(123, 25, 203) 100%);
+  padding: 100px 0px 40px 100px;
+  border-radius: 25px;
+  box-shadow: 0 10px 30px rgba(255, 0, 255, 0.3);
+  margin: 0px auto;
+  max-width: 1300px;
+  text-align: center;
+}
+
+.sub-heading {
+  font-size: 24px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;    padding-right: 30px;
+  color: #ffb200;
+    margin-bottom: 13px;
+}
+
+.main-heading {
+  font-size: 66px;
+    font-weight: 500;
+  color: white;
+  margin-top: 5px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;    padding-right: 30px;
+
+}
+
+.hero-text {
+  font-size: 16px;
+  color: #ddd;
+  margin-top: 16px;
+  margin-bottom: 80px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;    padding-right: 30px;
+
+}
+
+/* Tabs Navigation */
+.faq-tabs {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 44px;
+  flex-wrap: wrap;
+
+}
+
+.faq-tab {
+  background: -webkit-linear-gradient(45deg, rgb(215, 61, 245) 0%, rgb(143, 61, 245) 100%);
+  color: white;
+  border-radius: 30px;
+  padding: 18px 32px;
+  font-weight: bold;
+  border: none;
+  text-transform: capitalize;
+  font-size: 16px;
+  box-shadow: 0 5px 15px rgba(255, 0, 255, 0.3);
+  transition: all 0.3s ease;
+}
+
+.faq-tab.active {
+  background: -webkit-linear-gradient(86deg, rgb(236, 3, 139) 0%, rgb(251, 100, 104) 44%, rgb(251, 185, 54) 100%);
   
-  .hero-section {
-    background-size: cover;
-    background-position: center;
-    height: 300px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-  }
-  
-  .overlay {
-    background: rgba(0, 0, 0, 0.6);
-    padding: 20px;
-    border-radius: 10px;
-  }
-  
-  .accordion-item {
-    background: #1a1a3d !important;
-    color: white !important;
+  box-shadow: 0 5px 20px #ffcc00;
+}
+
+
+/* FAQ Accordion */
+/* FAQ Accordion */
+.faq-content {
+  margin-top: 30px;
+}
+
+.accordion-item {
+  background: #683df5 !important; /* Updated to a purple shade */
+  color: white !important;
+  border: none;
+  border-radius: 20px;
+  overflow: hidden;
+  margin: 12px auto;
+text-align: center;
+  max-width: 1100px;
+  padding: 15px; /* Added padding for better spacing */
+}
+
+.accordion-button {
     border: none;
-  }
-  
-  .accordion-button {
-    background: #23235b !important;
+    background-color: #683df5 !important;
+    padding-left: 60px;
     color: white !important;
-    font-weight: bold;
-  }
-  
-  .accordion-button:not(.collapsed) {
-    background: #ffcc00 !important;
-    color: #000 !important;
-  }
-  
+    font-size: large;
+    border-radius: 20px !important;
+    -webkit-border-radius: 20px !important;
+}
+
+
+
+/* Adjust text styles */
+.accordion-item p {
+  margin: 10px 0; /* Add margin for paragraph spacing */
+  font-size: 16px; /* Adjust font size for readability */
+  line-height: 1.5; /* Increase line height for better readability */
+}
+
+/* Subscription Section */
+.subscribe-section {
+  background: -webkit-linear-gradient(135deg, rgb(84, 150, 255) 0%, rgb(135, 57, 230) 100%);
+  padding: 50px;
+  margin-top: 50px;
+  text-align: left;
+  border-radius: 25px;
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;    padding-right: 30px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.subscribe-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;    padding-right: 30px;
+
+}
+
+.subscribe-texts {
+ font-size: 24px;
+    font-weight: 600;
+    color: #ffb200;
+    margin-bottom: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;    padding-right: 30px;
+
+}
+
+.subscribe-text {
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffbb00;
+}
+
+.subscribe-subtext {
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+  display: block;
+  margin-top: 5px;
+}
+
+.subscribe-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.1));
+  padding: 5px;
+  border-radius: 50px;
+  margin-right: 30px;
+}
+
+.subscribe-input input {
+  width: 250px;
+  padding: 15px;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  background: transparent;
+  color: white;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.subscribe-input input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.subscribe-input button {
+  background: linear-gradient(90deg, #FF9A00, #FF0080);
+  color: white;
+  border: white;
+  padding: 12px 25px;
+  border-radius: 50px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+  box-shadow: 0 0 15px rgba(255, 0, 255, 0.5);
+  transition: all 0.3s ease;
+}
+
+.subscribe-input button:hover {
+  background: linear-gradient(90deg, #FF0080, #FF9A00);
+}
